@@ -1,6 +1,10 @@
 # Expense Tracker
 
-A menu-driven C++ application to manage and analyze daily expenses.
+## Problem Statement
+
+Tracking daily expenses manually is difficult and makes it hard to analyze spending habits. This project provides a menu-driven Expense Tracker that helps users record expenses, analyze spending, categorize expenses, and sort records efficiently.
+
+---
 
 ## Features
 
@@ -13,28 +17,75 @@ A menu-driven C++ application to manage and analyze daily expenses.
   - Highest Expense
   - Lowest Expense
 - Category-wise Expense Analysis
-- Display Expenses within Budget
-- Sort Expenses using Merge Sort
+- Display Expenses Within Budget
+- Sort Expenses Using Merge Sort
 
-## DSA Concepts Used
+---
 
-- Arrays (Vector)
-- Structures
-- Classes & Objects
+## Data Structures Used
+
+- Vector (`vector<Expense>`) for storing expenses.
+- Structure (`struct Expense`) to represent each expense.
+- Hash Map (`unordered_map`) for category-wise expense analysis.
+
+---
+
+## Algorithms Used
+
 - Merge Sort
-- Hash Map (unordered_map)
-- Searching
+- Linear Search
+- Hashing (`unordered_map`)
 - CRUD Operations
 
-## Technologies
+---
+
+## Time Complexity Analysis
+
+| Operation | Time Complexity |
+|-----------|-----------------|
+| Add Expense | O(1) |
+| Display Expenses | O(n) |
+| Update Expense | O(n) |
+| Delete Expense | O(n) |
+| Expense Analysis | O(n) |
+| Category-wise Analysis | O(n) |
+| Budget Filter | O(n) |
+| Merge Sort | O(n log n) |
+
+where **n** is the number of expenses.
+
+---
+
+## Technologies Used
 
 - C++
-- STL (vector, unordered_map)
+- STL Vector
+- STL unordered_map
 - iomanip
+- Structures
+- Classes
+- Console-based UI
+
+---
+
+## Learning Outcomes
+
+- Using vectors to manage dynamic data
+- Working with structures and classes
+- Implementing Merge Sort
+- Using Hash Maps (`unordered_map`)
+- Performing data analysis
+- CRUD operations
+- Console formatting using `iomanip`
+
+---
 
 ## Future Improvements
 
 - File Handling
-- Monthly Reports
+- Monthly Expense Reports
 - Search by Date
-- Graphical User Interface
+- Category Budget Limits
+- Expense Charts and Graphs
+- Export Reports to CSV/PDF
+- Graphical User Interface (GUI)
