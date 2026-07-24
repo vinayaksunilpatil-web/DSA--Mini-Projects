@@ -1,7 +1,5 @@
-// 2. Library Book Search System ⭐⭐⭐⭐☆
-
+// 2. Library Book Search System
 //  Features
-
 // Add Books
 // Search by Book ID
 //  Search by Title
